@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1026px;
+    margin: 0 auto;
+}
+.top_menu{
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.btn{
+    width: 178px;
+    height: 42px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #28225e;
+    background: none;
+    border: 1px solid #28225e;
+    border-radius: 42px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+    transition: .2s all ease-in-out;
+}
+.btn:hover{
+    background: #28225e;
+    color: white;
+    cursor: pointer;
+}
+.header_text{
+    text-align: center;
+    margin-top: 55px;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    margin: 0 0 27px;
+}
+.main_text{
+    margin: 0 auto;
+    width: 730px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 20pt;
+}
+.solutions{
+    padding-top: 86px;
+    display: flex;
+    justify-content: space-between;
+}
+.solution_type{
+    text-align: center;
+    width: 320px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 20pt;
+    padding-bottom: 119px;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.arrow_1{
+    position: absolute;
+    top: 570px;
+    left: 595px;
+}
+.arrow_2{
+    position: absolute;
+    top: 570px;
+    left: 950px;
+}
+.quote{
+    background: rgb(25,37,107);
+    background: -moz-linear-gradient(90deg, rgba(25,37,107,1) 32%, rgba(218,85,19,1) 66%);
+    background: -webkit-linear-gradient(90deg, rgba(25,37,107,1) 32%, rgba(218,85,19,1) 66%);
+    background: linear-gradient(90deg, rgba(25,37,107,1) 32%, rgba(218,85,19,1) 66%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#19256b",endColorstr="#da5513",GradientType=1);
+    padding: 30px 0 30px 0;
+}
+.quote_content{
+    margin: 0 auto;
+    color: white;
+    width: 632px;
+}
+.quote_text{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 25pt;
+}
+.quote_author{
+    text-align: end;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    left: -20px;
+}
+.wrapper{
+    padding-top: 143px;
+    text-align: center;
+}
+.technology{
+    padding-top: 97px;
+}
+.technology_type{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.technology_image{
+    width: 664px;
+    padding-left: 35px;
+    padding-bottom: 134px;
+}
+.technology_header{ 
+    margin: 0 0 45px 0;
+}
+.technology_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 20pt;
+}
+.invert_image{
+    padding-right: 35px;
+}
+
+/* 576px - 768px */
+@media screen and (min-device-width: 577px) and (max-device-width: 768px){
+    .container{
+        width: 693px;
+    }
+    .top_menu{
+        margin-top: 11px;
+        padding-left: 13px;
+        padding-right: 5px;
+    }
+    .header_text{
+        text-align: center;
+        margin-top: 42px;
+    }
+    .main_text{
+        margin: 0 auto;
+        width: 675px;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        line-height: 20pt;
+    }
+    .solutions{
+        padding-top: 84px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .solution_type{
+        width: 230px;
+        word-wrap: break-word;
+        padding-bottom: 95px;
+    }
+    .solution_image{
+        width: 203px;
+        height: 152px;
+        object-fit: cover;
+    }
+    .arrow_1{
+        width: 28px;
+        top: 542px;
+        left: 254px;
+    }
+    .arrow_2{
+        width: 28px;
+        top: 542px;
+        left: 485px;
+    }
+    .quote_content{
+        width: 506px;
+    }
+    .quote_text{
+        font-size: 16px;
+        line-height: 20pt;
+        margin-bottom: 25px;
+    }
+    .quote_author{
+        font-size: 12px;
+        left: 60px;
+    }
+    .wrapper{
+        padding-top: 46px;
+    }
+    .technology{
+        padding-top: 37px;
+    }
+    .technology_image{
+        width: 420px;
+        height: 379px;
+        padding-left: 41px;
+        padding-bottom: 74px;
+        object-fit: cover; 
+    }
+    .technology_header{ 
+        margin: 0 0 45px 0;
+        width: 197px;
+    }
+    .technology_text{
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        width: 197px;
+        line-height: 20pt;
+    }
+    .invert_image{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .technology_wrapper{
+        width: 220px;
+    }
+}
+/* 320px - 576px */
+@media screen and (min-device-width: 320px) and (max-device-width: 576px){
+    .container{
+        width: 295px;
+    }
+    .top_menu{
+        margin: 32px auto;
+    }
+    .logo{
+        display: none;
+    }
+    .btn{
+        margin: 0 auto;
+    }
+    .header_text{
+        text-align: center;
+        margin-top: 24px;
+    }
+    .main_text{
+        margin: 0 auto;
+        width: 295px;
+        font-size: 12px;
+    }
+    .solutions{
+        padding-top: 46px;
+        display: block;
+    }
+    .solution_type{
+        width: 295px;
+        padding-bottom: 77px; 
+    }
+    .solution_image{
+        width: 271px;
+        height: 195px;
+        object-fit: cover;
+    }
+    .arrow_1{
+        width: 28px;
+        top: 810px;
+        left: 48%;
+        transform: rotate(90deg);
+    }
+    .arrow_2{
+        width: 28px;
+        top: 1242px;
+        left: 48%;
+        transform: rotate(90deg);
+    }
+    .quote_content{
+        width: 252px;
+        text-align: center;
+    }
+    .quote_text{
+        font-size: 16px;
+        line-height: 20pt;
+        margin-bottom: 25px;
+        padding-top: 75px;
+    }
+    .quote_author{
+        font-size: 12px;
+        padding-bottom: 80px;
+    }
+    .wrapper{
+        padding-top: 51px;
+    }
+    .technology{
+        padding-top: 23px;
+    }
+    .technology_type{
+        display: block;
+    }
+    .technology_image{
+        width: 265px;
+        height: 239px;
+        padding-left: 0;
+        padding-bottom: 35px;
+        object-fit: cover; 
+    }
+    .technology_header{ 
+        margin: 0 0 45px 0;
+        width: 197px;
+    }
+    .technology_text{
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        width: 197px;
+        line-height: 20pt;
+    }
+    .invert_image{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .technology_wrapper{
+        width: 220px;
+    }
+}
